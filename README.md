@@ -4,8 +4,11 @@
 
 '''
 1 for snake
+
 -1 for water
+
 0 for gun
+
 '''
 
 import random
@@ -27,6 +30,7 @@ if(computer==you):
    print("its a draw")
 
 else:
+
   if(computer ==-1 and you==1):
     print("you win!")
   elif(computer==-1 and you ==0):
@@ -39,7 +43,9 @@ else:
     print("you win!")
   elif(computer==0 and you==1):
      print("you loss!") 
+
   else:
+
      print("somthing went wrongel")      
 
 
